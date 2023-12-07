@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  background: linear-gradient(to bottom, #ff99cc, #ff66b2);
+  color: white;
 }
 
 body {
@@ -37,8 +39,12 @@ body {
   top: 20vh;
 }
 
-.one {
+.one > h1 {
   font-size: 4.5rem;
+}
+
+.one p {
+  font-size: 1.5rem;
 }
 
 .one > img {
@@ -55,20 +61,25 @@ body {
 
 .three {
   font-size: 3rem;
+  font-family: "Dancing Script", cursive; /* or use the desired font from the list */
 }
 
 .four .text-box {
-  width: 600px;
+  width: 70%;
   margin: 0 auto;
-  border: 3px solid #aaa;
-  border-radius: 5px;
-  padding: 10px;
+  border: 3px solid #ff66b2; /* Pink border color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px;
   position: relative;
+  background-color: #fff; /* White background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
 }
 
 .text-box p {
   margin: 0;
   text-align: left;
+  font-size: 1.2rem; /* Adjust the font size as needed */
+  color: #333; /* Dark text color */
 }
 
 .text-box span {
@@ -86,7 +97,7 @@ body {
 }
 
 .five p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -296,4 +307,8 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+
+.idea-1 p {
+  font-size: 1px; /* Add this line with your desired font size */
 }
