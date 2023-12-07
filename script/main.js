@@ -297,3 +297,10 @@ const animationTimeline = () => {
 
 // Run fetch and animation in sequence
 fetchData();
+document.addEventListener("DOMContentLoaded", function () {
+  const audio = document.querySelector("audio");
+  audio.play().catch((error) => {
+    // Auto-play was prevented, handle the error (e.g., show a play button).
+    console.error("Auto-play prevented:", error);
+  });
+});

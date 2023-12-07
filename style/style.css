@@ -6,7 +6,6 @@ html {
 
 body {
   margin: 0;
-  overflow: scroll;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -17,7 +16,7 @@ body {
   text-align: center;
   visibility: hidden;
   position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .container div.six {
