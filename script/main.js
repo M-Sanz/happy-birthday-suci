@@ -105,7 +105,7 @@ const animationTimeline = () => {
       {
         visibility: "visible",
       },
-      0.1
+      0.001
     )
     .to(".fake-btn", 0.1, {
       backgroundColor: "rgb(127, 206, 248)",
@@ -121,9 +121,9 @@ const animationTimeline = () => {
       "+=0.7"
     )
     .from(".idea-1", 3, ideaTextTrans)
-    .to(".idea-1", 3, ideaTextTransLeave, "+=10.5")
+    .to(".idea-1", 3, ideaTextTransLeave, "+=13.5")
     .from(".idea-2", 0.7, ideaTextTrans)
-    .to(".idea-2", 0.7, ideaTextTransLeave, "+=1.5")
+    .to(".idea-2", 0.7, ideaTextTransLeave, "+=3.5")
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
       scale: 1.2,
