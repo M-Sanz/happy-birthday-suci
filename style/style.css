@@ -65,6 +65,7 @@ body {
 }
 
 .four .text-box {
+  overflow: auto;
   width: 70%;
   margin: 0 auto;
   border: 3px solid #ff66b2; /* Pink border color */
@@ -307,8 +308,4 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
-}
-
-.idea-1 p {
-  font-size: 1px; /* Add this line with your desired font size */
 }
